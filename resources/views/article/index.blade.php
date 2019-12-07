@@ -10,11 +10,11 @@
             <thead>
               <tr>
                 <th width="1">No</th>
-                <th>Kategori</th>
+                <th>Nama Artikel</th>
               </tr>
             </thead>
             <tbody>
-              @foreach($kategori as $value)
+              @foreach($article as $value)
               <tr>
                 <td width="1">{{$value->id}}</td>
                 <td>{{$value->nama}}</td>

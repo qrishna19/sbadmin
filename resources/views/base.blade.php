@@ -128,6 +128,20 @@
           <span>Tables</span></a>
       </li>
 
+      <!-- Nav Item - Category -->
+      <li class="nav-item">
+        <a class="nav-link" href="{{route('kategori.index')}}">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Category</span></a>
+      </li>
+
+      <!-- Nav Item - Article -->
+      <li class="nav-item">
+        <a class="nav-link" href="{{route('article.index')}}">
+          <i class="fas fa-fw fa-table"></i>
+          <span>Article</span></a>
+      </li>
+
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
 

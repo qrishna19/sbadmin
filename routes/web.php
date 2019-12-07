@@ -17,8 +17,13 @@ Route::get('/', function () {
 Route::get('/firstpage', function(){
 	return view('index');
 });
+
+Route::get('/kategori', function(){
+	return view('kategori');
+});
 Route::get('/dashboard', 'DashboardController@index');
 Route::get('/halamantambah', 'DashboardController@index');
 Route::resource('/tes', 'TesController');
-Route::get('/kategori', 'KategoriController@index');
+Route::get('/kategori', 'KategoriController@index')->name('kategori.index');
 Route::get('/produk', 'ProdukController@index');
+Route::resource('/article', 'ArticleController');
